@@ -20,7 +20,7 @@
         <DataGrid x:Name="dataFiles" 
                   Margin="0,0,10,191" 
                   Grid.Row="0"
-                  ItemsSource="{Binding Files}">
+                  ItemsSource="{Binding Files}" MouseDoubleClick="dataFiles_MouseDoubleClick">
             <DataGrid.Columns>
                 <DataGridCheckBoxColumn ElementStyle="{DynamicResource MetroDataGridCheckBox}"
                                         EditingElementStyle="{DynamicResource MetroDataGridCheckBox}"

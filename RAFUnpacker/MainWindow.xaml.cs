@@ -90,5 +90,13 @@ namespace RAFUnpacker
             }
             catch(Exception) { }
         }
+
+        private void dataFiles_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                dataFiles.SelectAll();
+            } catch(Exception) { }
+        }
     }
 }
