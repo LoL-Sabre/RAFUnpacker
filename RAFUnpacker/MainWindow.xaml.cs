@@ -84,7 +84,11 @@ namespace RAFUnpacker
         }
         private void buttonGit(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("");
+            try
+            {
+                System.Diagnostics.Process.Start("https://github.com/LoL-Sabre/RAFUnpacker");
+            }
+            catch(Exception) { }
         }
     }
 }
